@@ -10,8 +10,8 @@ a {
 
 #main-header {
   background-color: rgb(29, 26, 24);
-  height: 80px;
-  padding: 0 20px;
+  height: 5rem;
+  padding: 0 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,7 @@ a {
 
 #logo {
   color: rgb(238, 164, 80);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -32,62 +32,62 @@ a {
 }
 
 #main-header li {
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 
 #main-header nav a {
   color: rgb(185, 131, 31);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #main-header nav a:hover {
-    color: rgb(228, 163, 44);
-} 
+  color: rgb(228, 163, 44);
+}
 
 main h1 {
-    color: rgb(238, 164, 80);
-    font-size: 48px;
-    text-align: center;
+  color: rgb(238, 164, 80);
+  font-size: 3rem;
+  text-align: center;
 }
 
 #latest-products {
-    width: 80%;
-    margin: 50px auto;
+  width: 80%;
+  margin: 2rem auto;
 }
 
 #latest-products ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    margin: 0;
-    padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .food-item {
-    background-color: rgb(228, 206, 182);
-    border-radius: 6px;
-    overflow: hidden;
+  background-color: rgb(228, 206, 182);
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .food-item img {
-    height: 240px;
-    width: 100%;
-    object-fit: cover;
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
 }
 
 .food-item-content {
-    padding: 16px;
-    text-align: center;
+  padding: 1rem;
+  text-align: center;
 }
 
 .btn {
-    background-color: rgb(228, 157, 44);
-    color: white;
-    border-radius: 4px;
-    padding: 8px 24px;
-
+  background-color: rgb(228, 157, 44);
+  color: white;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
 }
 
 .btn:hover {
-    background: rgb(221, 134, 34);
+  background: rgb(221, 134, 34);
 }
